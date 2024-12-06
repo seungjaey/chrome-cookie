@@ -1,0 +1,23 @@
+{
+  "name": "chrome-cookie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@kurly/prettier-config": "^0.0.0",
+    "@types/node": "^22.10.1",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "prettier": "@kurly/prettier-config",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
